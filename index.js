@@ -49,16 +49,16 @@ btnNav.forEach((btn) => {
         } else if (e.target.innerText === 'Normal') {
             if (arr.length === 0 || arr.length === 16 || arr.length === 24) {
                 reset();
-                memoryWrap.style.setProperty('--columns', 5);
-                memoryWrap.style.setProperty('--rows', 4);
+                memoryWrap.style.setProperty('--columns', 4);
+                memoryWrap.style.setProperty('--rows', 5);
                 createArr(10);
                 createCard(arr);
             }
         } else if (e.target.innerText === 'Hard') {
             if (arr.length === 0 || arr.length < 24) {
                 reset();
-                memoryWrap.style.setProperty('--columns', 6);
-                memoryWrap.style.setProperty('--rows', 4);
+                memoryWrap.style.setProperty('--columns', 4);
+                memoryWrap.style.setProperty('--rows', 6);
                 createArr(12);
                 createCard(arr);
             }
