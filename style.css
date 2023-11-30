@@ -30,8 +30,8 @@ body {
     --columns: 6;
     --rows: 6;
     display: grid;
-   grid-template-columns: repeat(var(--columns), 10vmin);
-   grid-template-rows: repeat(var(--rows), 10vmin);
+   grid-template-columns: repeat(var(--columns), 18vmin);
+   grid-template-rows: repeat(var(--rows), 18vmin);
    gap: 0.5vmin;
    height: fit-content;
     width: fit-content;
@@ -44,8 +44,8 @@ body {
     align-items: center;
 }
 .card {
-    width: 10vmin;
-    height: 10vmin;
+    width: 18vmin;
+    height: 18vmin;
     position: relative;
     perspective: 1000px;
 }
